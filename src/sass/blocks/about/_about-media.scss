@@ -1,0 +1,40 @@
+@media (max-width: 1400px) {
+    .about {
+        padding: 100px 0;
+    }
+}
+
+@media (max-width: 1200px) {
+    .about {
+        padding: 75px 0;
+        &__text {
+            &-inner {
+                grid-template-columns: repeat(2,minmax(450px, auto));
+                column-gap: 70px;
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .about {
+        &__text {
+            &-inner {
+                grid-template-columns: repeat(2,minmax(345px, auto));
+                column-gap: 50px;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .about {
+        padding: 75px 0;
+        &__text {
+            &-inner {
+                grid-template-columns: 1fr;
+                column-gap: 50px;
+            }
+        }
+    }
+}

@@ -1,0 +1,131 @@
+@media (max-width: 1400px) {
+    .gallery {
+        padding: 100px 0;
+
+        &__content {
+            gap: 30px;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .gallery {
+        padding: 75px 0 0 0;
+
+        &__content {
+            grid-template-columns: repeat(3, 250px);
+            justify-content: center;
+        }
+
+        a img {
+            height: 100%;
+        }
+    }
+
+    .horizonal-top {
+        grid-row: unset;
+        grid-column: unset;
+    }
+
+    .horizonal-down {
+        grid-row: unset;
+        grid-column: unset;
+    }
+}
+
+@media (max-width: 992px) {
+    .gallery {
+        &__content {
+            grid-template-columns: repeat(auto-fit, 250px);
+            margin-bottom: 50px;
+        }
+
+        &__btn {
+            font-size: 20px;
+        }
+
+        &__showMore {
+            margin-bottom: 100px;
+        }
+
+        &__video {
+            height: 400px;
+            margin-bottom: 100px;
+        }
+    }
+
+    .blockquote {
+        margin-bottom: 100px;
+        padding: 65px 10px 50px;
+        font-size: 30px;
+        &__author {
+            padding-left: 0;
+            justify-content: flex-end;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .gallery {
+        &__showMore {
+            margin-bottom: 50px;
+        }
+
+        &__numbers {
+            flex-wrap: wrap;
+            width: 100%;
+        }
+
+        &__items {
+            width: 50%;
+            margin-bottom: 40px;
+        }
+    }
+    
+    .blockquote {
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-width: 576px) {
+    .gallery {
+        &__filter {
+            &-btns {
+                display: block;
+            }
+        }
+
+        &__btn {
+            display: block;
+            margin-bottom: 30px;
+            font-size: 18px;
+        }
+        &__showMore {
+            width: 250px;
+            font-size: 20px;
+            padding: 20px 55px;
+        }
+
+        &__video {
+            height: 300px;
+            margin-bottom: 40px;
+        }
+    }
+
+    .blockquote {
+        margin-bottom: 40px;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 440px) {
+    .gallery {
+        &__items {
+            width: 100%;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}

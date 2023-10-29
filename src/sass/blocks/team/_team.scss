@@ -1,0 +1,23 @@
+.team {
+    padding-bottom: 200px;
+
+    &__title {
+        margin-bottom: 210px;
+    }
+
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    &__name {
+        padding: 25px 0 5px 0;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    &__prof {
+        font-weight: 400;
+    }
+}

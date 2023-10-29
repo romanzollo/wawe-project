@@ -1,0 +1,53 @@
+.pricing {
+    padding: 200px 0;
+    background-color: #F8F8F8;
+
+    &__title {
+        margin-bottom: 210px;
+    }
+
+    &__items {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item li {
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+}
+
+ul.pricing__item {
+    background-color: #fff;
+    padding: 45px 30px;
+    width: 360px;
+    position: relative;
+    min-height: 577px;
+}
+
+/* спецификация css, чтобы перебить*/
+.pricing__item .pricing__item-name,
+.pricing__item .pricing__item-price {
+    text-align: center;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    color: #01353E;
+    margin-bottom: 58px;
+}
+
+.pricing__item-price {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    
+
+    & span {
+        padding-left: 5px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}

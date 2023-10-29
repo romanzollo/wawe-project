@@ -1,0 +1,2 @@
+1. SVG icons в HTML разметке вместо img с src
+2.

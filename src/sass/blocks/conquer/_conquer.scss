@@ -1,0 +1,20 @@
+.conquer {
+    background-image: url(../img/achievememt-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right top;
+
+    &__inner {
+        padding: 200px 0 138px;
+        max-width: 511px;
+        margin-right: auto;
+    }
+
+    &__text p {
+        margin-bottom: 30px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}

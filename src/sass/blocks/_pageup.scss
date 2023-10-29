@@ -1,0 +1,19 @@
+.pageup {
+    display: none;
+    position: fixed;
+    background-color: #fff;
+    border-radius: 100%;
+    bottom: 40px;
+    right: 40px;
+    width: 40px;
+    height: 40px;
+
+    &:hover {
+        box-shadow: 3px 3px 20px #6b6b6b;
+        background: #B2BEB5;
+    }
+
+    img {
+        width: 100%;
+    }
+}

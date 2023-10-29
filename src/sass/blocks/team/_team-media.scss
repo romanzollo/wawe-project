@@ -1,0 +1,35 @@
+@media (max-width: 1400px) {
+    .team {
+        padding-bottom: 100px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .team {
+        padding: 75px 0 0 0;
+        &__items {
+            column-gap: 20px;
+        }
+    }
+}
+
+@media (max-width: 640px) {
+    .team {
+        &__items {
+            display: block;
+        }
+
+        &__item {
+            margin-bottom: 25px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            img {
+                margin: 0 auto;
+            }
+        }
+        
+    }
+    
+}

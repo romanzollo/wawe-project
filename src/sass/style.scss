@@ -1,0 +1,51 @@
+@import 'libs/reset';
+@import 'libs/jquery.fancybox.min.scss';
+@import 'libs/slick';
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600;700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+@import 'base/variables';
+@import 'base/mixins'; 
+
+@import 'blocks/title';
+
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.6px;
+    color: #242121;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+
+@import 'blocks/promo/promo';
+@import 'blocks/about/about';
+@import 'blocks/profit/profit';
+@import 'blocks/conquer/conquer';
+@import 'blocks/gallery/gallery';
+@import 'blocks/blog/blog';
+@import 'blocks/team/team';
+@import 'blocks/pricing/pricing';
+@import 'blocks/map/map';
+@import 'blocks/connection/connection';
+@import 'blocks/footer/footer';
+@import 'blocks/pageup';
+
+@import 'blocks/media';
+@import 'blocks/promo/promo-media';
+@import 'blocks/about/about-media';
+@import 'blocks/profit/profit-media';
+@import 'blocks/conquer/conquer-media';
+@import 'blocks/gallery/gallery-media';
+@import 'blocks/blog/blog-media';
+@import 'blocks/team/team-media';
+@import 'blocks/pricing/pricing-media';
+@import 'blocks/map/map-media';
+@import 'blocks/connection/connection-media';

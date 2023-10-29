@@ -1,0 +1,43 @@
+@media (max-width: 1600px) {
+    .conquer {
+        &__inner {
+            padding: 100px 0;
+        }
+    }
+}
+
+@media (max-width: 1400px) {
+    .conquer {
+        &__inner {
+            padding: 50px 0;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .conquer {
+        background-image: none;
+
+        &__inner {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .conquer {
+        &__title {
+            margin-bottom: 50px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .conquer {
+        &__title {
+            margin-bottom: 40px;
+        }
+    }
+}

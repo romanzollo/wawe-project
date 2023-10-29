@@ -1,0 +1,101 @@
+@media (max-width: 1400px) {
+    .blog {
+        &-slider {
+            padding-bottom: 100px;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .blog {
+        &-slider {
+            padding: 75px 0 0 0;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .blog {
+        &-slider {
+            &__item {
+                padding-top: 250px;
+                margin-bottom: 200px;
+
+                &-title {
+                    font-size: 45px;
+                    line-height: 55px;
+                }
+            }
+
+            &__inner {
+                min-height: 670px;
+            }
+        }
+    }
+
+    .slick-dots button {
+        width: 13px;
+        height: 13px;
+    }
+
+    .slick-dots li+li {
+        margin-left: 13px;
+    }
+}
+
+@media (max-width: 768px) {
+    .blog {
+        &-slider {
+            &__item {
+                padding-top: 170px;
+                margin-bottom: 60px;
+
+                &-title {
+                    font-size: 33px;
+                    line-height: 43px;
+                }
+            }
+
+            &__inner {
+                min-height: 400px;
+            }
+        }
+    }
+
+    .slick-dots button {
+        width: 11px;
+        height: 11px;
+    }
+
+    .slick-dots li+li {
+        margin-left: 11px;
+    }
+}
+
+@media (max-width: 576px) {
+    .blog {
+        &-slider {
+            &__item {
+                padding-top: 160px;
+
+                &-title {
+                    font-size: 25px;
+                    line-height: 35px;
+                }
+            }
+
+            &__inner {
+                min-height: 400px;
+            }
+        }
+    }
+
+    .slick-dots button {
+        width: 10px;
+        height: 10px;
+    }
+
+    .slick-dots li+li {
+        margin-left: 10px;
+    }
+}

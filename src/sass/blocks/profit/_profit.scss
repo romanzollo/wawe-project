@@ -1,0 +1,71 @@
+.profit {
+    padding: 200px 0;
+    background-color: #F8F8F8;
+
+    &__list {
+        display: flex;
+        margin-bottom: 100px;
+    }
+
+    &__item {
+        max-width: 350px;
+
+        &-inner {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        &-title {
+            margin-left: 10px;
+            width: 150px;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 28px;
+            letter-spacing: 0.6px;
+            color: #242121;
+
+        }
+    }
+
+
+    &__info {
+        display: flex;
+        justify-content: space-between;
+
+        &-inner {
+            display: flex;
+        }
+
+        &-inner span {
+            font-weight: 400;
+            font-size: 24px;
+            margin-left: 10px;
+        }
+
+        &-item {
+            margin-bottom: 10px;
+            max-width: 350px;
+        }
+
+        &-content {
+            max-width: 600px;
+        }
+        &-content p:first-child {
+            margin-bottom: 30px;
+        }
+
+        &-img {
+            margin-bottom: 3px;
+        }
+    }
+}
+
+.profit__item + .profit__item {
+    margin-left: 75px;
+}
+
+.profit__item .mb-20 {
+    margin-bottom: 20px;
+}

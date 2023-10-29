@@ -1,0 +1,90 @@
+.connection {
+    padding: 0 0 200px 0;
+
+    &__title {
+        margin-bottom: 243px;
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 200px;
+    }
+
+    &__form {
+        width: 570px;
+
+        input,
+        textarea {
+            display: block;
+            width: 100%;
+            border: none;
+            border-bottom: 2px solid #DADADA;
+            padding: 0 0 20px 0;
+            margin-bottom: 32px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        input::placeholder,
+        textarea::placeholder {
+            color: $main-color;
+            max-width: 260px;
+            font-weight: 400;
+            font-size: 18px;
+        }
+
+        textarea {
+            resize: none;
+            min-height: 156px;
+            margin: 53px 0 73px 0;
+        }
+
+        button {
+            font-weight: 400;
+            font-size: 24px;
+            text-align: center;
+            border: 1px solid #C4C4C4;
+            cursor: pointer;
+            text-transform: uppercase;
+            padding: 24px 111px 23px 111px;
+            background-color: #fff;
+        }
+    }
+
+    &__info {
+        padding: 50px 220px 70px 52px;
+        background-color: #F8F8F8;
+        max-width: 600px;
+
+        p,
+        a,
+        address {
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 30px;
+            margin-bottom: 65px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    &__social {
+        text-align: center;
+
+        a {
+            font-weight: 400;
+            font-size: 24px;
+            transition: all .6s;
+            &:hover {
+                color: $main-color;
+            }
+        }
+
+        a+a {
+            margin-left: 10px;
+        }
+    }
+}
